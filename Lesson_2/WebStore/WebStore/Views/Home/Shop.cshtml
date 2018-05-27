@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+}
+
+@section top {
+    <section id="advertisement">
+        <div class="container">
+            <img src="~/images/shop/advertisement.jpg" alt="">
+        </div>
+    </section>
+}
+
+@await Html.PartialAsync("Partial/_FeatureItems")
+
