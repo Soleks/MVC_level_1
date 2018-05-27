@@ -1,7 +1,5 @@
-﻿
-@{
-    ViewData["Title"] = "Shop";
-    Layout = "~/Views/Shared/_LayoutSideBar.cshtml";
+﻿@{
+    ViewData["Title"] = "Shop"; 
 }
 
 @section top {
@@ -11,6 +9,16 @@
         </div>
     </section>
 }
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    @await Html.PartialAsync("Partial/_LeftSideBar")
+                </div>
 
-@await Html.PartialAsync("Partial/_FeatureItems")
-
+                <div class="col-sm-9 padding-right">
+                 @await Html.PartialAsync("Partial/_FeaturesItemsProducts")
+                </div>
+            </div>
+        </div>
+    </section>
