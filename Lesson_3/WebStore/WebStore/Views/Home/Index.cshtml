@@ -1,0 +1,12 @@
+﻿
+@{
+    Layout = "_LayoutSideBar";
+}
+
+@section top {
+    @await Html.PartialAsync("Partial/_Slider");
+}
+
+@await Html.PartialAsync("Partial/_FeatureItems")
+@await Html.PartialAsync("Partial/_CategoryTab")
+@await Html.PartialAsync("Partial/_RecommendedItems")
