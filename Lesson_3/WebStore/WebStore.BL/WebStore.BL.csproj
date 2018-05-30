@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebStore.BL.Context\WebStore.BL.Context.csproj" />
+    <ProjectReference Include="..\WebStore.BL.Context\WebStore.BL.Contract.csproj" />
     <ProjectReference Include="..\WebStore.Dto\WebStore.Dto.csproj" />
   </ItemGroup>
 

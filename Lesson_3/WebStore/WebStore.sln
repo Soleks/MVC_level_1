@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore", "WebStore\WebStore.csproj", "{C895FEAB-51B3-499D-AB01-1A19FEA82909}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.BL", "WebStore.BL\WebStore.BL.csproj", "{29545D1D-FF2E-498B-9DC2-FA6FBCBC122A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.BL", "WebStore.BL\WebStore.BL.csproj", "{29545D1D-FF2E-498B-9DC2-FA6FBCBC122A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.BL.Context", "WebStore.BL.Context\WebStore.BL.Context.csproj", "{4AAFCC62-B1BC-442D-81B9-6B20423AA918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.BL.Contract", "WebStore.BL.Context\WebStore.BL.Contract.csproj", "{4AAFCC62-B1BC-442D-81B9-6B20423AA918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebStore.Dto", "WebStore.Dto\WebStore.Dto.csproj", "{6EA695DD-65C0-4B46-ADF5-5B9AD1BFA269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebStore.Dto", "WebStore.Dto\WebStore.Dto.csproj", "{6EA695DD-65C0-4B46-ADF5-5B9AD1BFA269}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
