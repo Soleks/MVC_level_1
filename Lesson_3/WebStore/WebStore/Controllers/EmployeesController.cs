@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using WebStore.BL.Context;
+﻿using Microsoft.AspNetCore.Mvc;
+using WebStore.BL.Contract;
 using WebStore.Models;
 
 namespace WebStore.Controllers
